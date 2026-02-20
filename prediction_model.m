@@ -1,5 +1,6 @@
 clear; clc; rng(7);
 
+% the data was extracted into a csv using R so we could utilize MATLAB for the analysis
 train = readtable("train.csv");
 test  = readtable("test.csv");
 
